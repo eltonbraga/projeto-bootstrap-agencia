@@ -8,8 +8,8 @@
     <title>Agência Web</title>
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Begin: Font Google - Robot 300,400 e 700 -->    
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <!-- Begin: Font Google - Robot 300,400 e 700 -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <!-- End: Font Google - Robot 300,400 e 700 -->
 
     <!-- Begin: Bootstrap css -->
@@ -46,7 +46,32 @@
 </head>
 
 <body>
-    <h1>Teste</h1>
+    <!-- Pela semantica do html é normalmente onde está a navegação principal -->
+    <header>
+        <!-- container é a classe do bootstrap em que ele ajusta pela resolução -->
+        <div id="nav-container" class="container">
+            <nav class="navbar navbar-expand-lg fixed-top">
+                <a href="#" class="" navbar-brand>
+                    <img id="logo" src="img/hdcagency_logo.svg" alt="hDC Agency">
+                    Agency
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+                    aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbar-links" class="collapse navbar-collapse justify-content-end">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" id="home-menu">Home</a>
+                        <a class="nav-item nav-link" id="about-menu">A Agência</a>
+                        <a class="nav-item nav-link" id="services-menu">Serviços</a>
+                        <a class="nav-item nav-link" id="team-menu">Time</a>
+                        <a class="nav-item nav-link" id="portifolio-menu">Projetos</a>
+                        <a class="nav-item nav-link" id="contact-menu">Contato</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
     <script src="js/scripts.js"></script>
 </body>
 
