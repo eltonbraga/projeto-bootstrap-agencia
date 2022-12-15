@@ -1,0 +1,19 @@
+Meu projeto
+    file://///wsl.localhost/Ubuntu/home/eltonbraga/git/projeto-bootstrap-agencia/index.html
+
+
+GitHub do criador do projeto com os assets (e código final do curso tbm)
+    https://github.com/matheusbattisti/curso_bootstrap
+
+Github progressbar (foi copiado e trazido para o projeto dentro de dist o aquivo progressbar.min.js )
+    https://github.com/kimmobrunfeldt/progressbar.js/blob/master/dist/progressbar.min.js
+
+Github parallax (uso atraver de link para a cdn)
+    https://github.com/pixelcog/parallax.js/
+
+
+
+Adicionando repositorios (azure - privado e github - publico)
+    git remote add github git@github.com:eltonbraga/projeto-bootstrap-agencia.git
+    git remote add azure eltonbragasilva@vs-ssh.visualstudio.com:v3/eltonbragasilva/AprendizadosLinguages/projeto-bootstrap-agencia
+
